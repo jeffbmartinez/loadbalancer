@@ -1,0 +1,18 @@
+{
+	"listenLocalOnly": true,
+	"listenPort": 8000,
+	"hosts": [
+		{
+			"hostname": "http://localhost:8001",
+			"weight": 1
+		},
+		{
+			"hostname": "http://localhost:8002",
+			"weight": 2
+		},
+		{
+			"hostname": "http://localhost:8003",
+			"weight": 3
+		}
+	]
+}
